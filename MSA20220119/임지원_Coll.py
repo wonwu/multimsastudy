@@ -16,7 +16,7 @@ avg = sum(dicScore.values()) / len(dicScore)
 # 2.
 setData1 = set()
 setData2 = set()
-for i in range(1,21):
+for i in range(1,101):
     if i % 3 == 0:
         setData1.add(i)
     if i % 5 == 0:
